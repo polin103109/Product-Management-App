@@ -1,0 +1,97 @@
+
+*{
+    box-sizing: border-box;
+}
+.total__div{
+    display: flex;
+}
+body{
+    display: flex;
+}
+.product_form_wrapper{
+    margin:20px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    gap:10px;
+}
+
+
+.product__table{
+    max-width:100%;
+    border:2px solid rgb(14, 13, 13);
+    margin-top: 20px;
+}
+
+.form{
+    padding:30px 40px;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label{
+   display: inline-block;
+}
+.form-control input{
+    border:2px solid #0f0101;
+    border-radius: 4px;
+    width:300px;
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+}
+.form-control.success input{
+    border-color: #2ecc71;
+}
+.form-control.error input{
+    border-color:#e74c3c;
+}
+.form-control small{
+    visibility: hidden ;
+    position:absolute ;
+    bottom: 0;
+    left:0;
+}
+.form-control.error small{
+    visibility: visible;
+    color:#e74c3c;
+}
+.form button{
+    width:100%;
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: blanchedalmond;
+    border: 1px solid grey;
+    border-radius: 5px;
+   
+}
+.add:hover{
+    background-color: rgb(184, 182, 180);
+}
+table,th,tr,td{
+    border:1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div2{
+    padding: 5px;
+}
+
+
+

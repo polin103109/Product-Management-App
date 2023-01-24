@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project management App</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="total__div">
+      <section class="product_form_wrapper">
+        <form class="form" id="form" >
+          <div class="form-control">
+            <label>ID</label>
+            <input type="userID" id="userID" placeholder="ID" />
+            <small>Error Message!</small>
+          </div>
+          <div class="form-control">
+            <label>Product Name</label>
+            <input type="name" id="productName" placeholder="Product Name" />
+            <small>Error Message!</small>
+          </div>
+          <div class="form-control">
+            <label>Price</label>
+            <input type="price" id="price" placeholder="Price" />
+            <small>Error Message!</small>
+          </div>
+          <div class="div2">
+            <button
+              type="button"
+              id="updateButton"
+              name="button"
+              class="add"
+              onclick="addProduct()"
+            >
+              Add
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section class="product_table_wrapper">
+        <table id="product-Table" class="product__table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+        </table>
+      </section>
+    </div>
+    </main>
+    <script src="./js/js.js"></script>
+  </body>
+</html>
