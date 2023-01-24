@@ -52,7 +52,7 @@ function setSuccessFor(input){
     formControl.className= 'form-control success';
 }
 function myFunction(){
-    alert("The form was validated sucessfully!!!");
+    alert("The form-product was added sucessfully!!!");
 }
 
 
